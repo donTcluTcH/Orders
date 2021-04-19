@@ -1,0 +1,26 @@
+﻿<UserControl x:Class="Orders.Model.OrderElement"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Orders.Model"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+
+    <Grid>
+
+        <Border CornerRadius="30" BorderBrush="#FF2196F3" BorderThickness="2" HorizontalAlignment="Left" VerticalAlignment="Center" Width="175" Height="75" Background="#FF5AB6FF" Margin="5,0,0,0">
+
+                <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="ElementName" Height="50" Width="150" FontSize="14" Foreground="GhostWhite"/>
+
+        </Border>
+
+        <Border CornerRadius="30" BorderBrush="#FF2196F3" BorderThickness="2" HorizontalAlignment="Right" VerticalAlignment="Center" Width="175" Height="75" Background="#FF5AB6FF" Margin="0,0,5,0">
+
+            <Label VerticalContentAlignment="Center" HorizontalContentAlignment="Center" x:Name="ElementCount" Height="50" Width="150" FontSize="14" Foreground="GhostWhite"/>
+
+        </Border>
+
+    </Grid>
+    
+</UserControl>
